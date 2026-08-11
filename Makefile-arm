@@ -1,0 +1,7 @@
+all:
+	armv7a-linux-androideabi21-clang -o olithink_5119_nnue-hybrid_ja_armv7a *.c -mthumb -march=armv7-a -mfloat-abi=softfp -mfpu=neon \
+	-lm -latomic -m32 -stdlib=libc -fPIE -pie -flto=auto -O2 -pipe -pthread  -s -w -funsafe-math-optimizations -fsee
+	
+	
+	 
+	
